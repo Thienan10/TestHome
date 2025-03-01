@@ -64,3 +64,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<!-- Hướng dẫn -->
+<!-- 
+    Tải Composer. 
+    fix lỗi trong xampp: bỏ dấu chấm phẩy (;) extension=zip
+    mở file và gõ lệnh php artisan serve để chạy trương trình
+
+ -->

@@ -15,19 +15,22 @@
 
 <body>
 
-    <nav class="navbar  navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid ">
-            <div class="col-md-6">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <!-- Column for the text -->
+            <div class="col-12 col-lg-6">
                 <a class="text-light" href="#">Nhận tư vấn - Giải pháp cho doanh nghiệp</a>
             </div>
-            <div class="col-md-6 text-align-items-start">
-                <div class="search-container">
-                    <input type="search" placeholder="Tìm kiếm" />
-                    <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- Column for the search container -->
+            <div class="col-12 col-lg-6 d-flex justify-content-start">
+                <div class="search-container d-flex align-items-center">
+                    <input type="search" class="form-control" placeholder="Tìm kiếm" />
+                    <i class="fa-solid fa-magnifying-glass ms-2"></i>
                 </div>
             </div>
         </div>
     </nav>
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -72,14 +75,24 @@
     <!-- sportzone banner -->
     <div class="hero-section">
         <div class="container-fluid position-relative">
+            <!-- Hình ảnh -->
             <div class="img-container">
-                <img src="{{asset('img/sportszone.png')}}" alt="SPORTSZONE" class="w-100 object-fit-cover">
+                <img src="{{asset('img/sportszone.png')}}" alt="SPORTSZONE" class="w-100 img-fluid object-fit-cover">
             </div>
-            <p class="text-white text-truncate">Website cung cấp nhiều thông tin về thế giới thể thao quy mô trên khắp cả nước</p>
-            <button class="btn btn-primary">TÌM HIỂU THÊM</button>
+
+            <!-- Văn bản mô tả -->
+            <p class="text-white text-center fs-6 fs-sm-5 fs-md-4 mb-3 px-3">
+                Website cung cấp nhiều thông tin về thế giới thể thao quy mô trên khắp cả nước
+            </p>
+
+            <!-- Nút tìm hiểu thêm -->
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary btn-sm btn-md-4">TÌM HIỂU THÊM</button>
+            </div>
         </div>
-        <div class="container"></div>
+        <div class="container-fluid position-relative"></div>
     </div>
+
     <!-- Sự kiện sắp diễn ra -->
     <div class="hero-section-event">
         <div class="container-fluid">

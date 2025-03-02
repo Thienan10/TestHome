@@ -40,12 +40,14 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">GIỚI THIỆU</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GIẢI ĐẤU</a>
-                        <ul>
-                            <li>Thiện nguyện</li>
-                            <li>Phong trào</li>
-                            <li>Chuyên nghiệp</li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            GIẢI ĐẤU
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Thiện nguyện</a></li>
+                            <li><a class="dropdown-item" href="#">Phong trào</a></li>
+                            <li><a class="dropdown-item" href="#">Chuyên nghiệp</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -66,6 +68,7 @@
             </div>
         </div>
     </nav>
+
     <!-- sportzone banner -->
     <div class="hero-section">
         <div class="container-fluid position-relative">
@@ -154,8 +157,12 @@
             <div class="info-img">
                 <ul>
                     <h2>SỰ KIỆN KHU VỰC & CẤP ĐỘ CƠ SỞ</h2>
-                    <li><p>Tổ chức các sự kiện quy mô phù hợp với từng tổ chức, khu vực</p></li>
-                    <li><p>Tạo cơ hội cho vận động viên trẻ và tài năng thể hiện khả năng</p></li>
+                    <li>
+                        <p>Tổ chức các sự kiện quy mô phù hợp với từng tổ chức, khu vực</p>
+                    </li>
+                    <li>
+                        <p>Tạo cơ hội cho vận động viên trẻ và tài năng thể hiện khả năng</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -166,8 +173,12 @@
             <div class="info-img">
                 <ul>
                     <h2>SỰ KIỆN THỂ THAO CỘNG ĐỒNG</h2>
-                    <li><p>Khuyến khích sự tham gia của người dân và nâng cao sức khỏe cộng đồng</p></li>
-                    <li><p>Các sự kiện như ngày hội thể thao, giải chạy bộ từ thiện, giải đấu giao lưu</p></li>
+                    <li>
+                        <p>Khuyến khích sự tham gia của người dân và nâng cao sức khỏe cộng đồng</p>
+                    </li>
+                    <li>
+                        <p>Các sự kiện như ngày hội thể thao, giải chạy bộ từ thiện, giải đấu giao lưu</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -178,8 +189,12 @@
             <div class="info-img">
                 <ul>
                     <h2>SỰ KIỆN THỂ THAO - VĂN HÓA KHÁC</h2>
-                    <li><p>Tổ chức các sự kiện thể thao, văn hóa, lễ hội có tính đặc thù riêng</p></li>
-                    <li><p>Tổ chức các giải đấu theo môn thể thao mới hoặc các hình thức thi đấu đặc biệt theo yêu cầu.</p></li>
+                    <li>
+                        <p>Tổ chức các sự kiện thể thao, văn hóa, lễ hội có tính đặc thù riêng</p>
+                    </li>
+                    <li>
+                        <p>Tổ chức các giải đấu theo môn thể thao mới hoặc các hình thức thi đấu đặc biệt theo yêu cầu.</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -196,9 +211,15 @@
             <div class="info-procedure">
                 <ul>
                     <h2>LẬP KẾ HOẠCH TỔ CHỨC (PLAN)</h2>
-                    <li><p><b>Xác định rõ mục tiêu của sự kiện: </b>Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối,...)</p></li>
-                    <li><p><b>Xác định phạm vi của sự kiện: </b>Đối tượng tham gia là ai? Quy mô sự kiện thế nào?</p></li>
-                    <li><p><b>Lập kế hoạch chi tiết: </b>bao gồm lịch trình, địa điểm, ngân sách, nguồn lực cần thiết</p></li>
+                    <li>
+                        <p><b>Xác định rõ mục tiêu của sự kiện: </b>Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối,...)</p>
+                    </li>
+                    <li>
+                        <p><b>Xác định phạm vi của sự kiện: </b>Đối tượng tham gia là ai? Quy mô sự kiện thế nào?</p>
+                    </li>
+                    <li>
+                        <p><b>Lập kế hoạch chi tiết: </b>bao gồm lịch trình, địa điểm, ngân sách, nguồn lực cần thiết</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -210,8 +231,12 @@
             <div class="info-procedure">
                 <ul>
                     <h2>ĐIỀU PHỐI NHÂN SỰ VÀ TRIỂN KHAI, VẬN HÀNH (DO)</h2>
-                    <li><p><b>Triển khai các công việc theo kế hoạch: </b>Dựa vào bảng kế hoạch đã được thông qua tiến hành thiết kế bộ nhân diện, lên kịch bản, tạo timeline chi tiết của sự kiện</p></li>
-                    <li><p><b>Phân bố nguồn nhân lực hợp lí: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente natus sint magni, laudantium vel, dolore tenetur quam consectetur nihil alias quaerat libero doloribus beatae asperiores, inventore rem similique vitae. Similique!</p></li>
+                    <li>
+                        <p><b>Triển khai các công việc theo kế hoạch: </b>Dựa vào bảng kế hoạch đã được thông qua tiến hành thiết kế bộ nhân diện, lên kịch bản, tạo timeline chi tiết của sự kiện</p>
+                    </li>
+                    <li>
+                        <p><b>Phân bố nguồn nhân lực hợp lí: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente natus sint magni, laudantium vel, dolore tenetur quam consectetur nihil alias quaerat libero doloribus beatae asperiores, inventore rem similique vitae. Similique!</p>
+                    </li>
                 </ul>
             </div>
             <div class="img-procedure">
@@ -228,8 +253,12 @@
             <div class="info-procedure">
                 <ul>
                     <h2>TRUYỀN THÔNG SỰ KIỆN (PR)</h2>
-                    <li><p><b>Xây dựng và thực hiện chiến lược truyền thông: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos, sunt ex magni iusto doloremque beatae. Officia obcaecati illo est sed voluptate dignissimos quidem vitae. Ducimus minus repellendus optio? Fugiat!</p></li>
-                    <li><p><b>Tiến hành truyền thông trước - Trong và sau sự kiện: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quo quidem itaque possimus nam? Exercitationem in nisi similique eveniet </p></li>
+                    <li>
+                        <p><b>Xây dựng và thực hiện chiến lược truyền thông: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos, sunt ex magni iusto doloremque beatae. Officia obcaecati illo est sed voluptate dignissimos quidem vitae. Ducimus minus repellendus optio? Fugiat!</p>
+                    </li>
+                    <li>
+                        <p><b>Tiến hành truyền thông trước - Trong và sau sự kiện: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quo quidem itaque possimus nam? Exercitationem in nisi similique eveniet </p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -240,8 +269,12 @@
             <div class="info-procedure">
                 <ul>
                     <h2>HẬU SỰ KIỆN & ĐÁNH GIÁ (CHECK & ACT)</h2>
-                    <li><p><b>Hậu sự kiện: </b>Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối,...)</p></li>
-                    <li><p><b>Đánh giá: </b>Đối tượng tham gia là ai? Quy mô sự kiện thế nào?</p></li>
+                    <li>
+                        <p><b>Hậu sự kiện: </b>Bạn muốn đạt được điều gì? (Tăng nhận diện thương hiệu, gây quỹ, giao lưu kết nối,...)</p>
+                    </li>
+                    <li>
+                        <p><b>Đánh giá: </b>Đối tượng tham gia là ai? Quy mô sự kiện thế nào?</p>
+                    </li>
                 </ul>
             </div>
             <div class="img-procedure">
@@ -343,7 +376,7 @@
             </ul>
         </div>
         <div class="container-fluid">
-        <ul>
+            <ul>
                 <h3>DỊCH VỤ</h3>
                 <li>Tư vấn tổ chức và sự kiện thể thao</li>
                 <li>Thiết kế bộ nhận diện thể thao</li>

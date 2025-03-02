@@ -96,11 +96,16 @@
     <!-- Sự kiện sắp diễn ra -->
     <div class="hero-section-event">
         <div class="container-fluid">
-            <h1>SỰ KIỆN SẮP DIỄN RA</h1>
-            <h2>GIẢI VIỆT DÃ VỀ NGUỒN</h2>
-            <p>Kỷ niệm 50 năm ngày giải phóng miền Nam, thống nhất đất nước (30/4/1975 - 30/4/2025) và chúc mừng đại hội Đảng các cấp, hướng tới đại hội, đại biểu toàn quốc lần thứ XIV và hưởng ứng ngày chạy Olympic vì sức khỏe toàn dân năm 2025.</p>
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-8">
+                    <h1>SỰ KIỆN SẮP DIỄN RA</h1>
+                    <h2>GIẢI VIỆT DÃ VỀ NGUỒN</h2>
+                    <p>Kỷ niệm 50 năm ngày giải phóng miền Nam, thống nhất đất nước (30/4/1975 - 30/4/2025) và chúc mừng đại hội Đảng các cấp, hướng tới đại hội, đại biểu toàn quốc lần thứ XIV và hưởng ứng ngày chạy Olympic vì sức khỏe toàn dân năm 2025.</p>
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- Giả việt giã về nguồn -->
     <div class="hero-section-event-2">
         <div class="container-fluid col-8">
@@ -111,17 +116,30 @@
         <div class="container-fluid"></div>
     </div>
     <!-- Bộ đếm -->
-    <div class="hero-section-timming">
-        <h1>CÒN LẠI</h1>
+    <div class="hero-section-timming text-center py-5">
+        <h1 class="display-4">CÒN LẠI</h1>
         <div class="container-fluid">
-            <ul>
-                <li>01 Ngày</li>
-                <li>24 Giờ</li>
-                <li>350 Phút</li>
-                <li>96 Giây</li>
+            <ul class="list-unstyled d-flex">
+                <li>
+                    <span class="d-block fw-bold">01</span>
+                    Ngày
+                </li>
+                <li>
+                    <span class="d-block fw-bold">24</span>
+                    Giờ
+                </li>
+                <li>
+                    <span class="d-block fw-bold">350</span>
+                    Phút
+                </li>
+                <li>
+                    <span class="d-block fw-bold">96</span>
+                    Giây
+                </li>
             </ul>
         </div>
     </div>
+
     <!-- Tin tức -->
     <div class="container-section-news">
         <div class="container-fluid">
